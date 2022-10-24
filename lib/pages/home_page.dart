@@ -11,7 +11,11 @@ class homepage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome TO $days days OF $Codewala"),
+          child: Text("Welcome TO $days days OF $Codewala",
+          style: TextStyle(
+            fontSize: 25, 
+            color: Colors.blue,
+          ),),
         ),
       ),
       drawer: Drawer(),
